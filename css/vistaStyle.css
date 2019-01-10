@@ -1,0 +1,13 @@
+.banner-content .content 
+	{
+        background-image: url(https://botbumbraco.blob.core.windows.net/media/18257/w1-hero-page2up.jpg);
+    }
+.banner-content .content.mobile {
+    background-image: url(https://botbumbraco.blob.core.windows.net/media/18258/w1-hero-page-mobile.jpg);
+ }
+ .fancybox-margin {
+     margin-right: 0;
+ }
+ #dtmdiv, #AWIN_CDT {
+    display: none;
+  }
