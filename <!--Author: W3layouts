@@ -1,0 +1,364 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>KIM&HIM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="description" content="Kim&Him - Animation & Illustration" />
+        <meta name="keywords" content="Kim&Him - creative agency for motion design, animation, illustration, Hamburg" />
+        <meta name="author" content="Codrops" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link rel="shortcut icon" href="http://kimandhim.de/images/favicon.ico"> 
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- color switch -->
+    <link href="css/blast.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- portfolio -->
+    <link rel="stylesheet" href="css/portfolio.css">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet"> -->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="main-menu-cover">
+        <!-- INDEX wrapper -->
+    <div id="bl-main" class="bl-main"> 
+<!-- Projects -->
+            <section id="projects-menu-wrapper" > 
+
+                <a href="#" class="index_images">
+                
+                    <div class="bl-box">
+                        
+                        <img id="mImg" width="70%", height="70%", src="http://kimandhim.de/images/gif/projects.png" onmouseover="this.src='http://kimandhim.de/images/gif/projects.gif'" onmouseout="this.src='http://kimandhim.de/images/gif/projects.png'" style="z-index:100;">
+                        </img>  
+                        
+                    </div>
+                </a>
+            </section>
+
+<!-- ABOUT -->
+            <section id="about-menu-wrapper">
+                <a href="#" class="index_images">
+                    <div class="bl-box">
+                        <img id="mImgAbout" width="70%", height="70%", src="http://kimandhim.de/images/gif/about.png" onmouseover="this.src='http://kimandhim.de/images/gif/about.gif'" onmouseout="this.src='http://kimandhim.de/images/gif/about.png'">
+                        </img>
+                    </div>
+                </a>
+            </section>
+
+<!-- CONTACTS -->
+            <section id="contact-menu-wrapper">
+                <a href="#" class="index_images">
+                    <div class="bl-box">
+                        <img id="mImgContact" width="70%", height="70%", src="images/gif/contact.png" onmouseover="this.src='images/gif/contact.gif'" onmouseout="this.src='images/gif/contact.png'"></img>
+                    </div>
+                </a>
+            </section>
+
+<!-- MOODBOARD -->
+            <section id="mood-menu-wrapper">
+                <a href="#" class="index_images">
+                    <div class="bl-box">
+                        <img id="mImgMood" width="70%", height="70%", src="http://kimandhim.de/images/gif/mood.png" onmouseover="this.src='http://kimandhim.de/images/gif/mood.gif'" onmouseout="this.src='http://kimandhim.de/images/gif/mood.png'"></img>
+                    </div>
+                </a>
+            </section>
+
+    </div>
+    </div>
+
+    <!-- <div class="blast-box"> -->
+        
+        <div id="bottom-right" class="hiddenButton animated hb2"></div>
+        <div  id="bottom-left" class="hiddenButton animated hb2"></div>
+        <div id="top-right" class="hiddenButton animated hb1"></div>
+        <div id="top-left" class="hiddenButton animated hb1"></div>
+
+    <div class="mood-container">
+        <div class="mood-spacer"></div>
+
+        <div class="container">
+                <div class="tab-content" id="pills-tabContent">
+                        <div id="instafeed-wrapper">
+                            <div class="photos" id="instafeed"></div>
+                        </div>
+                </div>
+            </div>
+    </div>
+
+        <section id="portfolio" class="py-lg-5 portfolio-agile pt-3 pb-5">
+            <div class="portfolio-spacer"></div>
+            <div class="video-wrapper">
+                <div class= "video-container">
+                    <iframe class="iframe" width="100%" height="600" src="https://player.vimeo.com/video/306358026" frameBorder="0"></iframe>
+                </div> 
+            </div>
+
+        <div class="container py-lg-5">
+            <div class="title-section pb-lg-5 text-center">
+                <img src="images/arrows.gif" alt="Flowers in Chania" >
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills my-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="showall-tab" data-toggle="pill" href="#showall" role="tab"
+                            aria-controls="showall" aria-selected="true"><img src="http://kimandhim.de/images/projects/projectsButton_showall.png" height="40" width="108">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="animation-tab" data-toggle="pill" href="#animation" role="tab"
+                            aria-controls="categorys" aria-selected="false"><img src="http://kimandhim.de/images/projects/projectsButton_animation.png" height="40" width="108"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="projection-maping-tab" data-toggle="pill" href="#projection-maping" role="tab"
+                            aria-controls="Tab2-Image" aria-selected="false"><img src="http://kimandhim.de/images/projects/projectsButton_ProjMapping.png" height="40" width="160"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="illustration-Image-tab" data-toggle="pill" href="#illustration" role="tab"
+                            aria-controls="Tab3-Image" aria-selected="false"><img src="http://kimandhim.de/images/projects/projectsButton_Illustration.png" height="40" width="108"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <hr style="margin-top:-20px;">
+            <div class="container">
+                <div class="portfolio-spacer"></div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active clearfix" id="showall" role="tabpanel" aria-labelledby="showall-tab">
+                    </div>
+                    <div class="tab-pane fade clearfix" id="animation" role="tabpanel" aria-labelledby="animation-tab">
+                    </div>
+                    <div class="tab-pane fade clearfix" id="projection-maping" role="tabpanel" aria-labelledby="projection-maping-tab">
+                    </div>
+                    <div class="tab-pane fade clearfix" id="illustration" role="tabpanel" aria-labelledby="Tillustration-tab">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-us" class="py-lg-5 portfolio-agile pt-3 pb-5">
+         <div class="about-row">
+            <div class="about-column">
+                <p class="site-text">KIM&HIM - Wir sind ein Team bestehend aus zwei Motion/graphic-Designern die sich mit den Schwerpunkten Animation und Illustration das Ziel gesetzt haben, kreative und effektive Bilderwelten zu erzeugen. Unsere Arbeiten umfassen infografische Animationen, handgezeichnete Animationen, räumlich angepasste Videoprojektionen sowie Illustrationen. Viele unserer Projekte zeichnen sich durch das Zusammenspiel von traditionellen Elementen mit digitalen Animationstechniken aus - Hierzu zählen Objektprojektionen und die digitale Rotoskopie. Sabina and Nils gründeten KIM&HIM 2015 nach gemeinsamen Master Abschluss mit Auszeichnung an der Bauhaus Universität Weimar im Bereich Medienkunst- Design.
+
+                A couple of mentionable names we worked with and for:
+                ARTE, NDR, BECKS, Saubere Filme, Medservation, A&O Büro, Ratsherrn Brauerei, Filmtank, eachfilm, Element E, e+p films, FUSE, corporate cut, Reccon, Schanze12Studio, Planetlux film- und fernsehproduktion, Verlag Friedrich Oetinger, Frischerfilm, Tom Leifer Design...</p>
+            </div>
+            <div class="about-column">
+                <p class="site-text">Awards, Acknowledgements and Public Screenings:</p>
+                <ul>
+                    <li class="site-text"> Winner for the Best Video Installation, XIV International Festival of Animation Arts Multivision, 2016</li>
+                    <li class="site-text"> Winner for the Best Jugendjury and Best Deutschen Umwelt und Naturfilmpreis, Naturvision Filmfestival, 2017</li>
+                    <li class="site-text"> Official Selection: Seoul International NewMedia Festival, 2016</li>
+                    <li class="site-text"> Official Selection: Linoleum Animation Festival, 2016</li>
+                    <li class="site-text"> Official Selection: BIAF Bucheon International Animation Festival, 2016</li>
+                    <li class="site-text"> Official Selection: KLIK! Amsterdam Animation Festival, 2016</li>
+                    <li class="site-text"> Official Selection: CutOut Festival Mexico, 2016</li>
+                    <li class="site-text"> Official Selection: Be There! Festival, 2016</li>
+                    <li class="site-text"> Official Selection: Animakom, 2016</li>
+                </ul>  
+            </div>
+        </div>
+    </section>
+    <section id="contact-us">
+        <p class="site-text">KONTAKT // CONTACT</strong><br>
+        <p class="site-text">// NILS</p>
+        <p class="site-text">TEL: +49 17782 99718 </p>
+        <p class="site-text">EMAIL:  <a href="mailto:nils@kimandhim.de">nils@kimandhim.de</a></p>
+                            
+        <p class="site-text">// SABINA</p>
+        <p class="site-text">TEL: +49 16270 48342</p>
+        <p class="site-text"> EMAIL:  <a href="mailto:sabina@kimandhim.de">sabina@kimandhim.de</a></p><br>
+
+        <p class="site-text imp-class">IMPRESSUM // IMPRINT</p>
+        <p class="site-text">USt-IdNr.: DE300146609</p>
+        <p class="site-text">KIM&HIM</p> 
+    </section>
+    <section id="impressum-container" class="py-lg-5 portfolio-agile pt-3 pb-5">
+        <div>
+            <PRE>
+            <p>
+            <strong>Impressum </strong>
+            Angaben gemäß § 5 TMG
+            
+            <strong>KIM&HIM GbR</strong>
+            Sabina Kim & Nils Andersen
+            Lippmanstr. 53
+            22769 Hamburg
+
+            <strong>Kontakt</strong>
+            Telefon: 01778299718
+            E-Mail: nils@kimandhim.de
+            </p>
+
+            <strong>Umsatzsteuer</strong>
+            Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
+            DE 300146609
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+            Verbraucherschlichtungsstelle teilzunehmen.
+
+            <strong>Haftung für Inhalte</strong>
+            Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
+            allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
+            verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
+            forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+            Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen
+            Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der
+            Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
+            Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+            <strong>Haftung für Links</strong>
+            Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
+            Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
+            verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten
+            Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte
+            waren zum Zeitpunkt der Verlinkung nicht erkennbar.
+            Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer
+            Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+            umgehend entfernen.
+
+            <strong>Urheberrecht</strong>
+            Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
+            Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
+            Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+            Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+            Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter
+            beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
+            Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei
+            Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+
+            Quelle:
+            https://www.e-recht24.de
+            </PRE>
+
+        </div>
+    </section>
+
+    <section id="video-container" class=" video-presenter">
+         <div class="vid-presenter-wrapper">
+            <div class="vid-row">
+                <div class="vid-column vid-left">
+                    <div class= "video-container-in-Wrapper">
+                        <iframe class="iframe project-video" width="98%" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameBorder="0"></iframe>
+                    </div>
+                    <div class="center">
+                        <p class="video-description site-text"> bla bla</p>
+                    </div>
+                </div>
+                <div class="vid-column vid-middle">
+                    <div class="small-image1  animation-wrapper  animated">
+                        <img class="firstImage" src="http://kimandhim.de/images/projects/small_image_penny1_1.png" height="auto" width="100%">
+                    </div>
+                </div>
+                <div class="vid-column vid-right">
+                    <a class="close-video-Wrapper animation-wrapper  animated" id="animation-tab" data-toggle="pill" href="#animation" role="tab"
+                            aria-controls="categorys" aria-selected="false"><img src="http://kimandhim.de/images/projects/projectsButton_back.png" height="40" width="40"></a>
+
+                    <div id="small-image2" class="small-image2 animation-wrapper  animated">
+                        <img id="scdImg" class= "secondImage" src="http://kimandhim.de/images/projects/small_image_penny2_1.png" height="auto" width="100%">
+                    </div>
+                </div>
+            </div>
+             <!-- <div class="overlay-row">
+                <div class="overlay-column">
+                    <div class= "video-container-in-Wrapper">
+                        <iframe class="iframe project-video" width="98%" height="350px" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameBorder="0"></iframe>
+                    </div>
+                    <div class="center">
+                        <p class="video-description"> bla bla</p>
+                    </div>
+                </div>
+                <div class="overlay-column">
+                    <div class="animation-wrapper  animated">
+                        <div class="small-image1">
+                            <img class="firstImage" src="http://kimandhim.de/images/projects/small_image_penny1_1.png" height="auto" width="100%">
+                        </div>
+                        <a class="close-video-Wrapper" id="animation-tab" data-toggle="pill" href="#animation" role="tab"
+                            aria-controls="categorys" aria-selected="false"><img src="http://kimandhim.de/images/projects/projectsButton_back.png" height="40" width="40"></a>
+                        <div id="small-image2" class="small-image2">
+                            <img id="scdImg" class= "secondImage" src="http://kimandhim.de/images/projects/small_image_penny2_1.png" height="auto" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="illustration-container">
+         <div class="illu-presenter-wrapper">
+            <a class="close-video-Wrapper" id="animation-tab" data-toggle="pill" href="#animation" role="tab"
+                            aria-controls="categorys" aria-selected="false"><img src="http://kimandhim.de/images/projects/projectsButton_back.png" height="40" width="40"></a>
+            <div class="illu-row">
+              <div class="illu-column left">
+                <div class="center-vertically">
+                    <img width="60px", height="60px", src="http://kimandhim.de/images/projects/back_button.jpg" onmouseover="this.src='http://kimandhim.de/images/projects/back_button.gif'" onmouseout="this.src='http://kimandhim.de/images/projects/back_button.jpg'" style="z-index:100;" onclick="show_image('left')">
+                </div>
+              </div>
+              <div class="illu-column middle">
+                 <img id="main-image"  height="auto" width="auto" />
+                 <div class= "slide-video-container">
+                    <iframe class="iframe  slide-vid" width="100%" height="450" src="https://player.vimeo.com/video/306358026" frameBorder="0"></iframe>
+                </div> 
+                <p class="proj-desc site-text"> bla bla</p>
+                 
+              </div>
+              <div class="illu-column right">
+                <div class="center-right-vertically">
+                    <img width="60px", height="60px", src="http://kimandhim.de/images/projects/next_button.jpg" onmouseover="this.src='http://kimandhim.de/images/projects/next_button.gif'" onmouseout="this.src='http://kimandhim.de/images/projects/next_button.jpg'" style="z-index:100;" onclick="show_image('right')">
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/blast.min.js"></script>
+    <!-- light box -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <script src="js/plugins.js" type="text/javascript"></script>
+     <script src="js/gridassistant.js"></script>    
+    <script src="js/SmoothScroll.min.js"></script>
+    <script src="js/menu-animator.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
