@@ -1,13 +1,39 @@
 .banner-content .content 
 	{
-        background-image: url(https://botbumbraco.blob.core.windows.net/media/18257/w1-hero-page2up.jpg);
+        background-image: url(../images/w1-hero-page2up.jpg);
     }
 .banner-content .content.mobile {
-    background-image: url(https://botbumbraco.blob.core.windows.net/media/18258/w1-hero-page-mobile.jpg);
+    background-image: url(../images/w1-hero-page-mobile.jpg);
  }
+
  .fancybox-margin {
      margin-right: 0;
  }
  #dtmdiv, #AWIN_CDT {
     display: none;
   }
+
+.homepage-icons .item .ali{border:2px solid #c7c7c7;border-radius:1000%;margin:0 auto 15px;width:120px}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  font-size: 50px;
+  color: #0374A6;
+  font-weight: bold;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ticket-container img {
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.btn1 {
+	display: inline-block;
+}
