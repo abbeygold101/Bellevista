@@ -68,7 +68,7 @@ window.universal_variable = {
   }
 };
 </script>
-<script type='text/javascript' src='https://d3c3cq33003psk.cloudfront.net/opentag-86699-867681.js' async defer></script>
+<!-- <script type='text/javascript' src='https://d3c3cq33003psk.cloudfront.net/opentag-86699-867681.js' async defer></script> -->
 <!-- Google Tag Manager Tracker
 ================================================== -->
 <script type="text/javascript">
@@ -98,9 +98,9 @@ var MasterTmsUdo = {
   "promo_id": 1
 };
 </script>
-<script>
+<!-- <script>
 (function(e){var t="3154",n=document,r,i,s={http:"https://cdn.mplxtms.com/s/MasterTMS.min.js",https:"https://secure-cdn.mplxtms.com/s/MasterTMS.min.js"},o=s[/\w+/.exec(window.location.protocol)[0]];i=n.createElement("script"),i.type="text/javascript",i.async=!0,i.src=o+"#"+t,r=n.getElementsByTagName("script")[0],r.parentNode.insertBefore(i,r),i.readyState?i.onreadystatechange=function(){if (i.readyState==="loaded"||i.readyState==="complete")i.onreadystatechange=null}:i.onload=function(){try{e()}catch(t){}}})(function(){});
-</script>
+</script> -->
 
     <!-- Social Media scripts
     ================================================== -->
@@ -665,7 +665,7 @@ var MasterTmsUdo = {
          </div>
     </div>
     <section class="how-does-it-work-icons home-section">
-    <div><a class="btn orange" href="/prizes/cars">ENTER Draw »</a></div>
+    <div><a id= "myBtn" class="btn orange" href="">ENTER Draw »</a></div>
     </section>
 </article>
 
@@ -911,6 +911,51 @@ var MasterTmsUdo = {
     <script src="js/otherjsfiles.js?v=3lrIJpqSqbtMnAK-g43Ijg-3j88X4Z0-SG96nJBqJMw1"></script>
     <div class="footer-trackers"></div>
 
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Buy your Ticket</h2>
+    </div>
+    <div class="modal-body">
+      <p>All fields are mandatory</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+ <!-- modal end -->
 
 
 
@@ -937,7 +982,6 @@ var MasterTmsUdo = {
         window.appInsights = appInsights;
         appInsights.trackPageView();
     </script>
-
 
 
 
