@@ -665,7 +665,7 @@ var MasterTmsUdo = {
          </div>
     </div>
     <section class="how-does-it-work-icons home-section">
-    <div><a id= "myBtn" class="btn orange" href="">ENTER Draw »</a></div>
+    <div><a id= "myBtn" class="btn orange" href="#"  onclick="document.getElementById('id01').style.display='block'">ENTER Draw »</a></div>
     </section>
 </article>
 
@@ -911,41 +911,42 @@ var MasterTmsUdo = {
     <script src="js/otherjsfiles.js?v=3lrIJpqSqbtMnAK-g43Ijg-3j88X4Z0-SG96nJBqJMw1"></script>
     <div class="footer-trackers"></div>
 
-    <!-- The Modal -->
-<div id="myModal" class="modal">
+<!-- the model form -->
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Buy your Ticket</h2>
-    </div>
-    <div class="modal-body">
-      <p>All fields are mandatory</p>
-    </div>
-  </div>
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
 
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="ticket-imgcontainer">
+      <img src="images/baz.png" alt="Auto Bazaar" class="avatar">
+    </div>
+
+    <div class="buy-ticket-container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="buy-ticket-container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
 </div>
 
 <script>
 // Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -955,9 +956,7 @@ window.onclick = function(event) {
 }
 </script>
 
- <!-- modal end -->
-
-
+<!-- model form end -->
 
     <script defer type="text/javascript">
         // <![CDATA[
@@ -972,7 +971,7 @@ window.onclick = function(event) {
         })(document, 'script');
         // ]]>
     </script>
-    <script defer type="text/javascript">
+<!--     <script defer type="text/javascript">
         var appInsights = window.appInsights || function (config) {
             function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = u.createElement(o), i, f; for (s.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js", u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) r("track" + i.pop()); return r("setAuthenticatedUserContext"), r("clearAuthenticatedUserContext"), config.disableExceptionTracking || (i = "onerror", r("_" + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t["_" + i](config, r, u, e, o), s }), t
         }({
@@ -981,7 +980,7 @@ window.onclick = function(event) {
 
         window.appInsights = appInsights;
         appInsights.trackPageView();
-    </script>
+    </script> -->
 
 
 
